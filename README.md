@@ -3,19 +3,19 @@
 
 ## About
 
-This information system is designed to help users who love romantic comedy movies discover titles based on emotional states, personal preferences, and social signals. It targets a broad audience seeking family-friendly (G, PG, PG-13) rom-coms for entertainment, mood uplift, or community connection through shared experiences. Users can access movie metadata, mood tags, user-generated reviews, and participate in recommendation threads for a personalized discovery journey.
+This information system is designed to help users who love romantic comedy movies discover titles based on emotional states, personal preferences, and social signals. It targets a wide audience seeking family-friendly (G, PG, PG-13) rom-coms for entertainment, mood enhancement, or community connection through shared interests and experiences. Users can access movie metadata, mood tags, user-generated reviews, and participate in recommendation threads for a personalized discovery journey.
 
 ## Methodology
 
-- Metadata is aggregated from trusted movie APIs such as TMDb and OMDb.
+- Metadata is aggregated from trusted movie APIs such as IMDb.
 - Controlled vocabularies and taxonomies are defined for moods, genres, ratings, and platform availability to ensure consistent tagging.
-- A NoSQL database (MongoDB or Firebase Firestore) is used to flexibly store movies, user data, and dynamic tags.
+- A NoSQL database is used to flexibly store movies, user data, and dynamic tags.
 - Community contributions enrich the dataset via reviews, mood tags, and recommendation threads.
 - RESTful API endpoints expose movie metadata, user preferences, and reviews.
-- Authentication is managed with Firebase Auth or OAuth2 providers to secure user data.
-- Search capabilities use Algolia or ElasticSearch for fuzzy matching and mood-based queries.
-- The system is hosted on cloud platforms like Firebase or AWS for scalability and reliability.
-- Frontend is built using React.js or a similar responsive framework to support multiple devices.
+- Authentication is managed to secure user data.
+- Search capabilities for mood-based queries.
+- The system is hosted on cloud platforms like AWS for scalability and reliability.
+- Frontend is built to support multiple devices.
 
 ## Access
 
