@@ -59,8 +59,6 @@ Users can interact with the system through the following steps:
 
 ## Example Request & Response
 
-### Request
-
 ```http
 GET /api/movies?mood=Cozy HTTP/1.1
 Host: yourapi.example.com
